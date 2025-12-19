@@ -41,6 +41,8 @@
 - **address** _(string | null)_: כתובת.
 - **comment** _(string | null)_: הערה.
 - **arrivalSource** _(string | null)_: מקור הגעה. ערכים מותרים:
+- **city** _(string | null)_: עיר:
+- **neighborhood** _(string | null)_: שכונה:
   - `"פייסבוק"`
   - `"אינסטגרם"`
   - `"טיקטוק"`
@@ -54,7 +56,8 @@
   - `"חרדי"`
 - **gradeLevel** _(string | null)_: שכבת גיל / כיתה.
   - הערה: לפי הסכמה כאן זה _string חופשי_ (לא מוגבל לערכי enum).
-- **upgradeToGrade** _(string | null)_: עולה לכיתה. ערכים מותרים:
+- **upgradeToGrade** _(string | null)_: עולה לכיתה בית ספר שלהבות ערכים מותרים:
+- **gradeLevel** _(string | null)_: עולה לגן עבור גנים מותרים:
   - `"טרום טרום"`, `"טרום"`, `"חובה"`, `"א"`, `"ב"`, `"ג"`, `"ד"`, `"ה"`, `"ו"`
 - **hasSiblingShalhavot** _(string | null)_: אח/ות שלמד/לומד בשלהבות. ערכים מותרים:
   - `"כן"`
