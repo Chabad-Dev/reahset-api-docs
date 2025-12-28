@@ -41,6 +41,8 @@
 - **address** _(string | null)_: כתובת.
 - **comment** _(string | null)_: הערה.
 - **arrivalSource** _(string | null)_: מקור הגעה. ערכים מותרים:
+- **previousSchoolName** _(string | null)_: גן הקודם
+- **mandatoryKindergartenName** _(string | null)_: בית ספר קודם
 - **city** _(string | null)_: עיר:
 - **neighborhood** _(string | null)_: שכונה:
   - `"פייסבוק"`
